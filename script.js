@@ -1,15 +1,7 @@
 var today = new Date();
-var dd = today.getDate();
-var mm = today.getMonth()+1; //January is 0!
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
 
-if(dd<10) {
-    dd='0'+dd
-} 
-
-if(mm<10) {
-    mm='0'+mm
-} 
-
-today = mm+'/'+dd+'/'+yyyy;
+today = mm + '/' + dd + '/' + yyyy;
 document.write(today);
