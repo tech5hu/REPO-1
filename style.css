@@ -2,13 +2,7 @@ body {
     font-family: "Lato", sans-serif;
     font-size: 20px;
   }
-
-  #title {
-    font-size: 55px;
-    font-family: Impact, fantasy;
-    font-style: normal;
-    color: rgb(112, 8, 8);
-}
+  
   
   #main {
     max-width: 1280px;
@@ -25,6 +19,7 @@ body {
   
   #main > p {
     text-align: center;
+    margin: auto;
   }
   
   #img-div{
