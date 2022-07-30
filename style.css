@@ -49,6 +49,11 @@ body {
     line-height: 30px;
   }
   
+
+  i {
+    text-align: center;
+  }
+
   h5{
      text-align: center;
   }
